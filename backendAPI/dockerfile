@@ -1,0 +1,26 @@
+FROM python:3.13-slim
+
+# Environment setup
+ENV POETRY_VERSION=1.8.2 \
+    POETRY_NO_INTERACTION=1 \
+    POETRY_VIRTUALENVS_CREATE=false \
+    PATH="/root/.local/bin:$PATH"
+
+# Install poetry
+RUN apt-get update && apt-get install -y curl \
+    && curl -sSL https://install.python-poetry.org | python3 - \
+    && apt-get clean
+
+WORKDIR /app
+
+# Copy dependency files first (for caching)
+COPY pyproject.toml poetry.lock ./
+
+# Install dependencies
+RUN poetry install
+
+# Copy the rest of the app
+COPY . .
+
+# Run your script
+CMD ["poetry", "run", "uvicorn", "src.index:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

@@ -1,0 +1,38 @@
+{
+    "chest": [
+        "Push-ups",
+        "Bench Press",
+        "Chest Fly",
+        "Incline Bench Press"
+    ],
+    "back": [
+        "Pull-ups",
+        "Bent-over Rows",
+        "Lat Pulldowns",
+        "Deadlifts"
+    ],
+    "shoulders": [
+        "Shoulder Press",
+        "Lateral Raises",
+        "Front Raises",
+        "Shrugs"
+    ],
+    "legs": [
+        "Squats",
+        "Lunges",
+        "Calf Raises",
+        "Side Lunges"
+    ],
+    "core":[
+        "Planks",
+        "Russian Twists",
+        "Leg Raises",
+        "Bicycle Crunches"
+    ],
+    "arms": [
+        "Bicep Curls",
+        "Tricep Dips",
+        "Hammer Curls",
+        "Skull Crushers"
+    ]
+}
