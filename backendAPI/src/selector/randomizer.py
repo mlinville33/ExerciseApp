@@ -2,6 +2,7 @@ import json
 import os
 import random
 
+## Load JSON data from the workouts.json file
 def load_json():
     load_json = os.path.join(os.path.dirname(__file__), '..', 'assets', 'workouts.json')
 
@@ -9,12 +10,16 @@ def load_json():
         data = json.load(file)
     return(data)
 
-def categories(search=None):
+## Return all categories or exercises in a specified category
+def categories(category=None):
     data = load_json()
-    if search:
-        return data.get(search, [])
+    print(data, category)
+    if category:
+        print(category)
+        return data.get(category, [])
     return list(data.keys())
 
+## Generate a random workout routine
 def randomizer():
     random_workout = []
     data = load_json()

@@ -14,3 +14,16 @@ services:
     command: poetry run uvicorn src.index:app --host 0.0.0.0 --port 8000 --reload
     volumes:
       - ./backendAPI:/app
+  
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: dockerfile
+    container_name: exercise_frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
