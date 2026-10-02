@@ -1,0 +1,594 @@
+{
+  "disclaimer": "These protocols are general education, not a diagnosis or a treatment plan. Progress only when movement is tolerable, and see a physician or physical therapist before starting if you have an acute injury, a recent surgery, or pain that is not improving.",
+  "pain_rule": "Use the 0-10 traffic light: 0-3 during and settled by the next morning is acceptable, 4-5 means reduce load or range, 6+ or pain that lingers past 24 hours means stop and regress a phase.",
+  "joints": {
+    "knee": {
+      "name": "Knee",
+      "summary": "Knee rehab restores full extension first, then rebuilds quadriceps and hip strength, and finally reintroduces impact and single-leg load. Hip and ankle strength matter as much as the knee itself, because both control how the knee tracks under load.",
+      "common_conditions": [
+        "Patellofemoral pain (runner's knee)",
+        "Patellar tendinopathy (jumper's knee)",
+        "Post-ACL or meniscus surgery, once cleared by a surgeon",
+        "Mild to moderate knee osteoarthritis",
+        "MCL sprain"
+      ],
+      "precautions": [
+        "Regaining full straight-leg extension early matters more than regaining deep bend; a knee that will not fully straighten changes how you walk.",
+        "Swelling that increases after a session is the clearest sign you did too much, even if pain felt fine at the time.",
+        "Avoid deep loaded knee bend and open-chain leg extension with heavy load during early patellofemoral or patellar tendon irritation."
+      ],
+      "red_flags": [
+        "Knee gives way or locks",
+        "Cannot bear weight for four steps",
+        "Rapid, large swelling within an hour of injury",
+        "Obvious deformity, fever, or a hot, red joint"
+      ],
+      "phases": [
+        {
+          "number": 1,
+          "name": "Calm and Protect",
+          "goal": "Settle swelling, restore full extension, and wake the quadriceps back up.",
+          "typical_duration": "1-2 weeks",
+          "advance_when": "Swelling is minimal, the knee straightens fully, and you can hold a straight-leg raise without the knee sagging.",
+          "exercises": [
+            {
+              "name": "Quad Set",
+              "description": "Sit with the leg straight and press the back of the knee down into the floor, tightening the thigh so the kneecap glides up.",
+              "cues": ["Squeeze the thigh, do not hold your breath", "Watch the kneecap slide toward your hip"],
+              "sets": 3, "reps": 10, "hold_seconds": 5, "frequency": "2-3x daily", "equipment": "none"
+            },
+            {
+              "name": "Heel Prop for Extension",
+              "description": "Rest the heel on a rolled towel with the knee unsupported and let gravity straighten the joint.",
+              "cues": ["Let the knee hang, stay relaxed", "Stop if you feel sharp pain rather than a stretch"],
+              "sets": 3, "reps": 1, "hold_seconds": 120, "frequency": "daily", "equipment": "towel"
+            },
+            {
+              "name": "Heel Slide",
+              "description": "Lying down, slide the heel toward the hip to a comfortable bend, then slide it back out.",
+              "cues": ["Move to the edge of discomfort, not through it", "Use a strap or towel to assist if needed"],
+              "sets": 2, "reps": 15, "hold_seconds": null, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Straight Leg Raise",
+              "description": "With the knee locked straight, lift the whole leg to about 45 degrees and lower it under control.",
+              "cues": ["Set the quad before the leg leaves the floor", "No knee sag on the way up"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Ankle Pump",
+              "description": "Point and flex the ankle rhythmically to drive swelling out of the lower leg.",
+              "cues": ["Full range each direction", "Best done with the leg elevated"],
+              "sets": 3, "reps": 20, "hold_seconds": null, "frequency": "2-3x daily", "equipment": "none"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Rebuild Strength",
+          "goal": "Load the knee through closed-chain movement and build the hip strength that controls it.",
+          "typical_duration": "3-6 weeks",
+          "advance_when": "You can sit to stand from a low chair on one leg with control and walk 30 minutes without a flare.",
+          "exercises": [
+            {
+              "name": "Sit to Stand",
+              "description": "Stand from a chair without using your hands, then lower back down over three seconds.",
+              "cues": ["Push evenly through both feet", "The slow lowering is the point"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "4-5x weekly", "equipment": "chair"
+            },
+            {
+              "name": "Terminal Knee Extension",
+              "description": "With a band pulling the back of the knee forward, straighten the knee against the band.",
+              "cues": ["Finish each rep fully locked out", "Keep the heel down"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Glute Bridge",
+              "description": "Lying on your back with knees bent, drive through the heels and lift the hips until shoulders, hips, and knees line up.",
+              "cues": ["Squeeze the glutes at the top", "Ribs down, do not arch the back"],
+              "sets": 3, "reps": 12, "hold_seconds": 2, "frequency": "3-4x weekly", "equipment": "none"
+            },
+            {
+              "name": "Low Step-Up",
+              "description": "Step up onto a low box leading with the injured leg, then lower back down slowly.",
+              "cues": ["Knee tracks over the middle toes", "Do not push off the trailing foot"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "3x weekly", "equipment": "step or box"
+            },
+            {
+              "name": "Side-Lying Hip Abduction",
+              "description": "Lying on your side, lift the top leg straight up with the toes pointed slightly down.",
+              "cues": ["Lead with the heel, not the toe", "Do not roll the hips backward"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "none"
+            },
+            {
+              "name": "Hamstring Slider Curl",
+              "description": "In a bridge position, slide the heels away from you and pull them back in using the hamstrings.",
+              "cues": ["Keep the hips up the whole set", "Shorten the range if you feel cramping"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3x weekly", "equipment": "sliders or towel"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Load and Return",
+          "goal": "Build single-leg strength and reintroduce impact so the knee tolerates sport and daily surprises.",
+          "typical_duration": "4-8 weeks",
+          "advance_when": "Single-leg strength is within about 10 percent of the other side and hopping is pain free.",
+          "exercises": [
+            {
+              "name": "Split Squat",
+              "description": "In a staggered stance, lower the back knee toward the floor and drive back up through the front leg.",
+              "cues": ["Torso tall, front shin roughly vertical", "Add load only once bodyweight is easy"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "optional dumbbells"
+            },
+            {
+              "name": "Eccentric Step-Down",
+              "description": "Stand on a step on the injured leg and lower the other heel toward the floor over three seconds.",
+              "cues": ["Control the descent, tap lightly", "Do not let the knee collapse inward"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "step or box"
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "description": "Hinge at the hip on one leg, letting the free leg travel back as the chest lowers.",
+              "cues": ["Hips square to the floor", "Feel it in the hamstring and glute, not the low back"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "optional dumbbell"
+            },
+            {
+              "name": "Pogo Hop",
+              "description": "Small, springy double-leg hops staying on the balls of the feet.",
+              "cues": ["Quiet landings, minimal knee bend", "Stop the set if landings get noisy"],
+              "sets": 3, "reps": 20, "hold_seconds": null, "frequency": "2x weekly", "equipment": "none"
+            },
+            {
+              "name": "Lateral Hop and Stick",
+              "description": "Hop sideways onto one leg and hold the landing for two seconds without wobbling.",
+              "cues": ["Land softly, knee over the foot", "Hold until fully still before the next rep"],
+              "sets": 3, "reps": 6, "hold_seconds": 2, "frequency": "2x weekly", "equipment": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "shoulder": {
+      "name": "Shoulder",
+      "summary": "Shoulder rehab restores pain-free motion, then trains the rotator cuff and the muscles that control the shoulder blade, and finally returns you to overhead and pressing load. Most stubborn shoulder pain improves when the shoulder blade starts moving well.",
+      "common_conditions": [
+        "Rotator cuff tendinopathy or subacromial pain",
+        "Shoulder impingement",
+        "Frozen shoulder (adhesive capsulitis), early stages",
+        "Post-dislocation, once cleared",
+        "AC joint sprain"
+      ],
+      "precautions": [
+        "In early phases, work below shoulder height; painful arcs overhead usually mean the tissue is not ready.",
+        "After a dislocation, avoid the combined position of abduction plus external rotation until cleared.",
+        "Pain down the arm past the elbow with numbness or tingling is a neck referral pattern and needs assessment, not shoulder strengthening."
+      ],
+      "red_flags": [
+        "Cannot actively lift the arm at all after a trauma",
+        "Visible deformity or a suspected dislocation",
+        "Night pain with unexplained weight loss or fever",
+        "Progressive weakness or numbness in the hand"
+      ],
+      "phases": [
+        {
+          "number": 1,
+          "name": "Restore Motion",
+          "goal": "Reduce irritation and regain pain-free range below shoulder height.",
+          "typical_duration": "1-3 weeks",
+          "advance_when": "You can raise the arm to shoulder height without a sharp catch and sleep through most nights.",
+          "exercises": [
+            {
+              "name": "Pendulum Swing",
+              "description": "Lean on a table with the free arm hanging, and let it swing in small circles using body sway.",
+              "cues": ["The arm is passive, the body creates the motion", "Small circles, stay relaxed"],
+              "sets": 2, "reps": 1, "hold_seconds": 30, "frequency": "2-3x daily", "equipment": "table"
+            },
+            {
+              "name": "Scapular Setting",
+              "description": "Gently draw the shoulder blades down and back without shrugging, and hold.",
+              "cues": ["Think back pocket, not shrug", "Neck stays long and soft"],
+              "sets": 3, "reps": 10, "hold_seconds": 5, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Table Slide",
+              "description": "Rest the forearm on a table and slide it forward, letting the chest drop to raise the arm without muscling it.",
+              "cues": ["Let the table carry the weight", "Stop at the first pinch"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "daily", "equipment": "table"
+            },
+            {
+              "name": "Supine External Rotation",
+              "description": "Lying down with the elbow tucked at 90 degrees, rotate the forearm outward to a comfortable range.",
+              "cues": ["Keep a towel under the elbow", "Range before effort"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "daily", "equipment": "towel"
+            },
+            {
+              "name": "Thoracic Extension over Towel",
+              "description": "Lie back over a rolled towel placed across the mid-back and open the chest.",
+              "cues": ["Support the head", "Breathe into the stretch for 3 breaths"],
+              "sets": 2, "reps": 10, "hold_seconds": null, "frequency": "daily", "equipment": "towel or foam roller"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Cuff and Scapula",
+          "goal": "Build rotator cuff endurance and scapular control under light, controlled load.",
+          "typical_duration": "4-6 weeks",
+          "advance_when": "Band work is easy for 15 controlled reps and you can raise the arm overhead without compensating.",
+          "exercises": [
+            {
+              "name": "Band External Rotation",
+              "description": "With the elbow tucked at the side, rotate the forearm outward against a band.",
+              "cues": ["Elbow stays pinned to the ribs", "Control the return, do not let the band snap back"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4-5x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Band Internal Rotation",
+              "description": "Elbow tucked, rotate the forearm across the body against the band.",
+              "cues": ["Same tucked elbow position", "Slow and smooth both directions"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4-5x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Band Row",
+              "description": "Pull the band toward the ribs, finishing by drawing the shoulder blade back.",
+              "cues": ["Lead with the elbow", "Do not shrug at the finish"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Scaption Raise",
+              "description": "Raise light weights to shoulder height at about 30 degrees in front of the body, thumbs up.",
+              "cues": ["Stop at shoulder height early on", "Very light weight, this is control work"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3x weekly", "equipment": "light dumbbells"
+            },
+            {
+              "name": "Wall Slide with Serratus Punch",
+              "description": "With forearms on the wall, slide them up and finish by pushing the wall away to round the upper back slightly.",
+              "cues": ["Push through the forearms the whole way", "Ribs stay down"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "wall"
+            },
+            {
+              "name": "Prone Y and T",
+              "description": "Face down, lift the arms into a Y and then a T position with the thumbs up.",
+              "cues": ["Lift from the shoulder blade, not the hand", "Bodyweight only at first"],
+              "sets": 2, "reps": 10, "hold_seconds": 2, "frequency": "3x weekly", "equipment": "none"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Overhead Return",
+          "goal": "Restore pressing and overhead capacity with progressive load.",
+          "typical_duration": "4-8 weeks",
+          "advance_when": "Overhead pressing is pain free and strength is close to symmetrical.",
+          "exercises": [
+            {
+              "name": "Incline Press",
+              "description": "Press dumbbells from the shoulders on an incline bench, a friendlier angle than flat overhead.",
+              "cues": ["Shoulder blades set back and down", "Stop short of a painful range"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "dumbbells and bench"
+            },
+            {
+              "name": "Half-Kneeling Overhead Press",
+              "description": "From a half-kneeling stance, press one dumbbell straight overhead.",
+              "cues": ["Squeeze the glute of the down leg", "Do not let the ribs flare"],
+              "sets": 3, "reps": 8, "hold_seconds": null, "frequency": "2x weekly", "equipment": "dumbbell"
+            },
+            {
+              "name": "Face Pull",
+              "description": "Pull a band toward the face, finishing with the hands wide and the thumbs back.",
+              "cues": ["Elbows high", "Pause one second at the finish"],
+              "sets": 3, "reps": 15, "hold_seconds": 1, "frequency": "3x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Overhead Carry",
+              "description": "Hold a weight locked out overhead and walk with a tall posture.",
+              "cues": ["Elbow fully locked", "Stop the set when the arm starts to drift forward"],
+              "sets": 3, "reps": 1, "hold_seconds": 30, "frequency": "2x weekly", "equipment": "dumbbell or kettlebell"
+            },
+            {
+              "name": "Push-Up Plus",
+              "description": "At the top of a push-up, push the upper back toward the ceiling to spread the shoulder blades.",
+              "cues": ["The plus is a small, deliberate extra push", "Start on an elevated surface if needed"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "ankle": {
+      "name": "Ankle",
+      "summary": "Ankle rehab restores swelling control and motion, then rebuilds calf strength and balance, and finally retrains the hopping and cutting the ankle has to survive. Balance work is not optional: the reflexes that protect the ankle are what get lost after a sprain.",
+      "common_conditions": [
+        "Lateral ankle sprain",
+        "Chronic ankle instability and repeat rolling",
+        "Achilles tendinopathy",
+        "Post-immobilization stiffness",
+        "Mild peroneal tendon irritation"
+      ],
+      "precautions": [
+        "Restoring dorsiflexion (knee travelling over the toes) is the single best predictor of a good outcome after a sprain.",
+        "Balance work should be done near a wall or counter you can grab.",
+        "With Achilles tendinopathy, favour slow, heavy heel raises and hold off on sudden jumping until the slow work is comfortable."
+      ],
+      "red_flags": [
+        "Cannot bear weight for four steps right after the injury",
+        "Bony tenderness along the back edge of either ankle bone",
+        "A sudden pop at the back of the calf with a weak push-off, which can mean an Achilles rupture",
+        "Numbness or a cold, pale foot"
+      ],
+      "phases": [
+        {
+          "number": 1,
+          "name": "Protect and Move",
+          "goal": "Control swelling and restore ankle motion in all directions.",
+          "typical_duration": "1-2 weeks",
+          "advance_when": "You can walk normally without a limp and swelling has largely settled.",
+          "exercises": [
+            {
+              "name": "Ankle Pump",
+              "description": "Point and flex the foot through full range with the leg elevated.",
+              "cues": ["Elevate above heart height when you can", "Rhythmic and continuous"],
+              "sets": 3, "reps": 20, "hold_seconds": null, "frequency": "3-4x daily", "equipment": "none"
+            },
+            {
+              "name": "Ankle Alphabet",
+              "description": "Trace each letter of the alphabet in the air with the big toe.",
+              "cues": ["Move from the ankle, not the whole leg", "Make the letters large"],
+              "sets": 2, "reps": 26, "hold_seconds": null, "frequency": "2x daily", "equipment": "none"
+            },
+            {
+              "name": "Isometric Eversion and Inversion",
+              "description": "Press the outside, then inside, of the foot against a wall or your other foot without moving.",
+              "cues": ["Build the push over two seconds", "No movement, just tension"],
+              "sets": 3, "reps": 10, "hold_seconds": 5, "frequency": "daily", "equipment": "wall"
+            },
+            {
+              "name": "Towel Calf Stretch",
+              "description": "Seated with the leg straight, loop a towel around the ball of the foot and pull the toes toward you.",
+              "cues": ["Knee stays straight for the calf", "Stretch, never sharp"],
+              "sets": 3, "reps": 1, "hold_seconds": 30, "frequency": "2x daily", "equipment": "towel"
+            },
+            {
+              "name": "Seated Heel Raise",
+              "description": "Sitting with feet flat, lift the heels off the floor and lower slowly.",
+              "cues": ["Push through the big toe", "Add a light weight on the knees when easy"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "daily", "equipment": "none"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Strength and Balance",
+          "goal": "Rebuild calf and peroneal strength and restore single-leg balance.",
+          "typical_duration": "3-5 weeks",
+          "advance_when": "You can hold single-leg balance 30 seconds with eyes closed and do 20 single-leg heel raises.",
+          "exercises": [
+            {
+              "name": "Band Eversion",
+              "description": "With a band around the foot, turn the sole outward against resistance.",
+              "cues": ["Move only the foot, keep the knee still", "Slow return every rep"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4-5x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Band Inversion",
+              "description": "With the band anchored on the outside, turn the sole inward against resistance.",
+              "cues": ["Keep the leg fixed", "Full controlled range"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4-5x weekly", "equipment": "resistance band"
+            },
+            {
+              "name": "Knee-to-Wall Mobilization",
+              "description": "With the toes a few inches from a wall, drive the knee forward over the toes keeping the heel down.",
+              "cues": ["Heel must stay flat", "Track your distance from the wall week to week"],
+              "sets": 3, "reps": 10, "hold_seconds": 2, "frequency": "daily", "equipment": "wall"
+            },
+            {
+              "name": "Double to Single Leg Heel Raise",
+              "description": "Rise onto the toes with both feet, then lower on the injured side alone.",
+              "cues": ["Full height at the top", "Three seconds down"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4x weekly", "equipment": "none"
+            },
+            {
+              "name": "Single-Leg Balance",
+              "description": "Stand on one leg with a soft knee, progressing from eyes open to eyes closed.",
+              "cues": ["Grip the floor with the toes", "Stay near a counter"],
+              "sets": 3, "reps": 1, "hold_seconds": 30, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Heel and Toe Walks",
+              "description": "Walk 20 metres on the heels, then 20 metres on the toes.",
+              "cues": ["Exaggerate the position", "Stop if the shin cramps hard"],
+              "sets": 3, "reps": 1, "hold_seconds": null, "frequency": "3x weekly", "equipment": "none"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Power and Cutting",
+          "goal": "Restore elastic strength and the reactive control needed for sport.",
+          "typical_duration": "3-6 weeks",
+          "advance_when": "Hopping and cutting are pain free and confident on both sides.",
+          "exercises": [
+            {
+              "name": "Slow Eccentric Single-Leg Heel Raise",
+              "description": "Rise on one leg and lower over four seconds, ideally off the edge of a step.",
+              "cues": ["Four full seconds down", "Add a backpack for load when easy"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "step"
+            },
+            {
+              "name": "Star Excursion Reach",
+              "description": "Balancing on one leg, reach the other foot as far as you can forward, diagonally back, and to the side.",
+              "cues": ["Reach light, do not transfer weight", "Keep the standing heel down"],
+              "sets": 3, "reps": 5, "hold_seconds": null, "frequency": "3x weekly", "equipment": "none"
+            },
+            {
+              "name": "Pogo Hop",
+              "description": "Fast, small double-leg hops on the balls of the feet.",
+              "cues": ["Stiff ankles, quiet landings", "Minimal ground contact time"],
+              "sets": 3, "reps": 20, "hold_seconds": null, "frequency": "2-3x weekly", "equipment": "none"
+            },
+            {
+              "name": "Lateral Bound and Stick",
+              "description": "Bound sideways onto one leg and hold the landing until completely still.",
+              "cues": ["Stick the landing for two seconds", "Build distance gradually"],
+              "sets": 3, "reps": 6, "hold_seconds": 2, "frequency": "2x weekly", "equipment": "none"
+            },
+            {
+              "name": "Skipping Rope",
+              "description": "Light continuous skipping to retrain rhythmic ankle stiffness.",
+              "cues": ["Land on the balls of the feet", "Short bouts with full rest between"],
+              "sets": 3, "reps": 1, "hold_seconds": 30, "frequency": "2-3x weekly", "equipment": "jump rope"
+            }
+          ]
+        }
+      ]
+    },
+    "wrist": {
+      "name": "Wrist",
+      "summary": "Wrist rehab starts with gentle motion and tendon gliding, builds grip and forearm strength in both directions, and ends with tolerating bodyweight through the hand. Most wrist and elbow tendon pain responds best to slow, heavy, controlled loading rather than rest alone.",
+      "common_conditions": [
+        "Wrist sprain",
+        "Tennis elbow or golfer's elbow with wrist symptoms",
+        "De Quervain's tenosynovitis (thumb side)",
+        "Post-immobilization stiffness after a fracture, once cleared",
+        "Load-related pain from pressing, climbing, or keyboard work"
+      ],
+      "precautions": [
+        "Numbness or tingling in the thumb, index, and middle fingers suggests nerve involvement; back off aggressive stretching and get it assessed.",
+        "Build to weight-bearing on the hands gradually, starting with forearms or a fist before an open palm.",
+        "Train wrist flexors and extensors equally; grip work alone tends to make extensor pain worse."
+      ],
+      "red_flags": [
+        "Pain in the hollow at the base of the thumb after a fall, which can mean a scaphoid fracture that is easy to miss",
+        "Visible deformity after a fall on an outstretched hand",
+        "Persistent numbness, night numbness, or thumb muscle wasting",
+        "Inability to grip at all"
+      ],
+      "phases": [
+        {
+          "number": 1,
+          "name": "Settle and Mobilize",
+          "goal": "Restore comfortable motion in the wrist and fingers without provoking pain.",
+          "typical_duration": "1-2 weeks",
+          "advance_when": "Full pain-free wrist bend and straighten, and everyday gripping is comfortable.",
+          "exercises": [
+            {
+              "name": "Tendon Glide",
+              "description": "Move the fingers through straight, hook, fist, and tabletop positions in sequence.",
+              "cues": ["Pause briefly in each position", "Smooth, no forcing"],
+              "sets": 3, "reps": 10, "hold_seconds": 2, "frequency": "3x daily", "equipment": "none"
+            },
+            {
+              "name": "Wrist Flexion and Extension AROM",
+              "description": "With the forearm supported on a table, move the hand up and down through comfortable range.",
+              "cues": ["Forearm stays down", "Move only to the first resistance"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "2-3x daily", "equipment": "table"
+            },
+            {
+              "name": "Pronation and Supination",
+              "description": "Elbow tucked at the side, turn the palm up and then down.",
+              "cues": ["Elbow stays glued to the ribs", "Turn from the forearm, not the shoulder"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "2x daily", "equipment": "none"
+            },
+            {
+              "name": "Isometric Wrist Extension",
+              "description": "Press the back of the hand up into the other hand without letting the wrist move.",
+              "cues": ["Build tension slowly", "Aim for a mild, tolerable ache only"],
+              "sets": 3, "reps": 10, "hold_seconds": 5, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Median Nerve Glide",
+              "description": "With the arm out to the side and palm up, gently extend the wrist and fingers, then release.",
+              "cues": ["This is a glide, never a hard stretch", "Back off immediately if tingling increases"],
+              "sets": 2, "reps": 10, "hold_seconds": 2, "frequency": "daily", "equipment": "none"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Build Strength",
+          "goal": "Restore balanced forearm strength and grip endurance.",
+          "typical_duration": "3-5 weeks",
+          "advance_when": "You can do light wrist curls in both directions for 15 reps without next-day soreness.",
+          "exercises": [
+            {
+              "name": "Wrist Extension Curl",
+              "description": "Forearm resting on a table palm down, curl a light weight upward and lower slowly.",
+              "cues": ["Three seconds down every rep", "Start with 1-2 pounds, it is enough"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4x weekly", "equipment": "light dumbbell"
+            },
+            {
+              "name": "Wrist Flexion Curl",
+              "description": "Forearm on a table palm up, curl the weight toward you and lower under control.",
+              "cues": ["Forearm stays down", "Match the load you use for extension"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "4x weekly", "equipment": "light dumbbell"
+            },
+            {
+              "name": "Radial and Ulnar Deviation",
+              "description": "With the thumb up, move the hand side to side against light resistance.",
+              "cues": ["Small range, this joint does not travel far", "Keep the forearm still"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "3x weekly", "equipment": "light dumbbell or band"
+            },
+            {
+              "name": "Grip Squeeze",
+              "description": "Squeeze a soft ball or grip trainer and hold.",
+              "cues": ["Full squeeze, full release", "Stop if the outside of the elbow flares"],
+              "sets": 3, "reps": 10, "hold_seconds": 5, "frequency": "daily", "equipment": "stress ball"
+            },
+            {
+              "name": "Hammer Rotation",
+              "description": "Hold a hammer or light dumbbell by the end and rotate the palm up and down against the weight.",
+              "cues": ["Choke up on the handle to make it easier", "Control both directions"],
+              "sets": 3, "reps": 12, "hold_seconds": null, "frequency": "3x weekly", "equipment": "hammer or dumbbell"
+            },
+            {
+              "name": "Finger Extension with Band",
+              "description": "Place a rubber band around the fingertips and open the fingers against it.",
+              "cues": ["Spread all five digits", "Slow close on the way back"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "daily", "equipment": "rubber band"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Load Bearing Return",
+          "goal": "Tolerate heavy grip and full bodyweight through the hand.",
+          "typical_duration": "3-6 weeks",
+          "advance_when": "A full push-up on open palms and a 30 second hang are comfortable.",
+          "exercises": [
+            {
+              "name": "Heavy Slow Eccentric Wrist Extension",
+              "description": "Lift the weight with both hands, then lower with the injured side alone over four seconds.",
+              "cues": ["The lowering is the whole exercise", "Add load as long as it settles overnight"],
+              "sets": 3, "reps": 15, "hold_seconds": null, "frequency": "3-4x weekly", "equipment": "dumbbell or flexbar"
+            },
+            {
+              "name": "Quadruped Wrist Rock",
+              "description": "On hands and knees, rock the body forward and back over the planted hands.",
+              "cues": ["Spread the fingers and press the knuckles down", "Reduce the rock if the wrist pinches"],
+              "sets": 3, "reps": 10, "hold_seconds": null, "frequency": "daily", "equipment": "none"
+            },
+            {
+              "name": "Plank on Hands",
+              "description": "Hold a high plank with straight arms, building the time you can tolerate.",
+              "cues": ["Push the floor away", "Drop to forearms the moment the wrist complains"],
+              "sets": 3, "reps": 1, "hold_seconds": 20, "frequency": "3x weekly", "equipment": "none"
+            },
+            {
+              "name": "Farmer Carry",
+              "description": "Walk carrying a heavy weight in each hand with a tall posture.",
+              "cues": ["Neutral wrist, do not let it bend back", "Shoulders down"],
+              "sets": 3, "reps": 1, "hold_seconds": 30, "frequency": "2-3x weekly", "equipment": "dumbbells or kettlebells"
+            },
+            {
+              "name": "Dead Hang",
+              "description": "Hang from a bar with a relaxed grip, building time gradually.",
+              "cues": ["Start with feet partly supported", "Stop well before the grip fails"],
+              "sets": 3, "reps": 1, "hold_seconds": 20, "frequency": "2-3x weekly", "equipment": "pull-up bar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

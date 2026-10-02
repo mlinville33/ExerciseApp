@@ -1,8 +1,39 @@
+/* Fonts are bundled rather than fetched from a CDN: a packaged app should not
+   make a network round trip on launch, and offline it would fall back to the
+   system stack. Both are variable fonts under the SIL Open Font License, so one
+   file per family covers every weight the app uses.
+
+   font-display: block (not swap) because in a native shell the files are local
+   and resolve in milliseconds - a swap would show a flash of fallback type for
+   no benefit. */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500 800;
+  font-display: block;
+  src: url('./fonts/archivo-var.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: block;
+  src: url('./fonts/inter-var.woff2') format('woff2');
+}
+
+:root {
+  /* Inter for reading, Archivo for anything that should feel set rather than
+     typed: headings, numbers, buttons, labels. Both degrade to the system
+     stack if the webfonts do not load. */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', sans-serif;
+  --font-display: 'Archivo', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

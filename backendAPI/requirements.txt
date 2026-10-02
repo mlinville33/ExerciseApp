@@ -1,0 +1,4 @@
+# Mirrors the runtime dependencies in pyproject.toml, for running without Poetry.
+fastapi>=0.116.1
+uvicorn>=0.35.0
+sqlalchemy>=2.0.36

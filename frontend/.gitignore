@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Native (Capacitor)
+# The icon/splash PNGs are rendered from assets/*.svg by `npm run assets`, so
+# the SVGs are the only source worth versioning. The per-platform sizes
+# generated into android/ and ios/ are committed, because the native projects
+# need them to build.
+/assets/*.png
+/src/data/library/
+/public/assets/

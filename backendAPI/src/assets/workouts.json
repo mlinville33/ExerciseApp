@@ -1,38 +1,104 @@
 {
-    "chest": [
-        "Push-ups",
-        "Bench Press",
-        "Chest Fly",
-        "Incline Bench Press"
-    ],
-    "back": [
-        "Pull-ups",
-        "Bent-over Rows",
-        "Lat Pulldowns",
-        "Deadlifts"
-    ],
-    "shoulders": [
-        "Shoulder Press",
-        "Lateral Raises",
-        "Front Raises",
-        "Shrugs"
-    ],
-    "legs": [
-        "Squats",
-        "Lunges",
-        "Calf Raises",
-        "Side Lunges"
-    ],
-    "core":[
-        "Planks",
-        "Russian Twists",
-        "Leg Raises",
-        "Bicycle Crunches"
-    ],
-    "arms": [
-        "Bicep Curls",
-        "Tricep Dips",
-        "Hammer Curls",
-        "Skull Crushers"
-    ]
+  "chest": [
+    { "name": "Push-ups", "equipment": "none", "description": "Bodyweight press with the hands under the shoulders and the body in a straight line." },
+    { "name": "Bench Press", "equipment": "barbell", "description": "Horizontal press from a flat bench with the shoulder blades set back." },
+    { "name": "Chest Fly", "equipment": "dumbbells", "description": "Wide arc press with a soft elbow, squeezing the chest at the top." },
+    { "name": "Incline Bench Press", "equipment": "barbell", "description": "Press on an incline to bias the upper chest and shoulders." },
+    { "name": "Dumbbell Press", "equipment": "dumbbells", "description": "Flat press with dumbbells, allowing a more natural wrist path." },
+    { "name": "Cable Crossover", "equipment": "cable", "description": "Constant-tension fly from high or low cables." },
+    { "name": "Decline Bench Press", "equipment": "barbell", "description": "Press from a decline bench to bias the lower chest." },
+    { "name": "Incline Dumbbell Press", "equipment": "dumbbells", "description": "Incline press with dumbbells for a deeper stretch than the bar allows." },
+    { "name": "Incline Dumbbell Fly", "equipment": "dumbbells", "description": "Fly on an incline, opening the arms until the upper chest stretches." },
+    { "name": "Chest Dip", "equipment": "dip bars", "description": "Dip with the torso leaned forward and the elbows flared to load the chest." },
+    { "name": "Machine Chest Press", "equipment": "machine", "description": "Fixed-path press that is easy to push close to failure on your own." },
+    { "name": "Pec Deck", "equipment": "machine", "description": "Seated machine fly with the upper arms driving the movement." },
+    { "name": "Dumbbell Pullover", "equipment": "dumbbells", "description": "Arc a single dumbbell back over the head with the ribs pulled down." },
+    { "name": "Feet-Elevated Push-Up", "equipment": "none", "description": "Push-up with the feet raised, shifting load onto the upper chest." },
+    { "name": "Banded Push-Up", "equipment": "resistance band", "description": "Push-up with a band across the back, so the top of the rep stays hard." }
+  ],
+  "back": [
+    { "name": "Pull-ups", "equipment": "pull-up bar", "description": "Vertical pull to chin height with the shoulder blades pulling down first." },
+    { "name": "Bent-over Rows", "equipment": "barbell", "description": "Hinged row pulling the bar to the lower ribs." },
+    { "name": "Lat Pulldowns", "equipment": "cable", "description": "Seated vertical pull to the collarbone." },
+    { "name": "Deadlifts", "equipment": "barbell", "description": "Hip hinge lifting the bar from the floor with a neutral spine." },
+    { "name": "Seated Cable Row", "equipment": "cable", "description": "Horizontal pull with a tall chest and no torso swing." },
+    { "name": "Single-Arm Dumbbell Row", "equipment": "dumbbells", "description": "Supported one-arm row through a long range." },
+    { "name": "Chin-ups", "equipment": "pull-up bar", "description": "Underhand vertical pull, sharing the work with the biceps." },
+    { "name": "T-Bar Row", "equipment": "barbell", "description": "Chest-forward row on a landmine or T-bar with a neutral grip." },
+    { "name": "Chest-Supported Row", "equipment": "dumbbells", "description": "Row face-down on an incline bench, which takes the low back out of it." },
+    { "name": "Inverted Row", "equipment": "barbell", "description": "Row your own bodyweight under a fixed bar with the body in one line." },
+    { "name": "Straight-Arm Pulldown", "equipment": "cable", "description": "Pull the bar to the thighs with locked elbows, isolating the lats." },
+    { "name": "Wide-Grip Lat Pulldown", "equipment": "cable", "description": "Pulldown with a wide grip to bias the outer lats." },
+    { "name": "Machine Row", "equipment": "machine", "description": "Fixed-path horizontal row with the chest against the pad." },
+    { "name": "Rack Pull", "equipment": "barbell", "description": "Partial deadlift from knee height, loading the upper back heavily." },
+    { "name": "Back Extension", "equipment": "none", "description": "Extend the hips against gravity without hyperextending the low back." }
+  ],
+  "shoulders": [
+    { "name": "Shoulder Press", "equipment": "dumbbells", "description": "Vertical press from the shoulders to full lockout." },
+    { "name": "Lateral Raises", "equipment": "dumbbells", "description": "Raise the arms out to the sides to shoulder height." },
+    { "name": "Front Raises", "equipment": "dumbbells", "description": "Raise the arms forward to shoulder height." },
+    { "name": "Shrugs", "equipment": "dumbbells", "description": "Lift the shoulders straight up and control the drop." },
+    { "name": "Cable Face Pull", "equipment": "cable", "description": "Pull to the face with high elbows for rear delts and upper back." },
+    { "name": "Arnold Press", "equipment": "dumbbells", "description": "Press with a rotation from palms-in to palms-forward." },
+    { "name": "Overhead Press", "equipment": "barbell", "description": "Strict standing press with the glutes and core braced." },
+    { "name": "Push Press", "equipment": "barbell", "description": "Overhead press driven by a short dip of the knees, for heavier loads." },
+    { "name": "Seated Dumbbell Press", "equipment": "dumbbells", "description": "Press with the back supported, removing the leg drive." },
+    { "name": "Machine Shoulder Press", "equipment": "machine", "description": "Fixed-path overhead press, easy to take near failure safely." },
+    { "name": "Cable Lateral Raise", "equipment": "cable", "description": "Lateral raise from a low cable, keeping tension at the bottom." },
+    { "name": "Rear Delt Fly", "equipment": "dumbbells", "description": "Bent-over reverse fly with the thumbs leading, for the rear delts." },
+    { "name": "Upright Row", "equipment": "barbell", "description": "Pull the bar to chest height with the elbows leading, staying pain-free." },
+    { "name": "Landmine Press", "equipment": "barbell", "description": "Angled one-arm press, friendly to shoulders that dislike vertical pressing." },
+    { "name": "Band Pull-Apart", "equipment": "resistance band", "description": "Pull a band apart at chest height, squeezing the shoulder blades." }
+  ],
+  "legs": [
+    { "name": "Squats", "equipment": "barbell", "description": "Knee and hip bend to at least parallel with the chest tall." },
+    { "name": "Lunges", "equipment": "none", "description": "Step forward and lower the back knee toward the floor." },
+    { "name": "Calf Raises", "equipment": "none", "description": "Rise onto the toes through full range and lower slowly." },
+    { "name": "Side Lunges", "equipment": "none", "description": "Step wide to one side and sit back into that hip." },
+    { "name": "Romanian Deadlift", "equipment": "barbell", "description": "Hip hinge with soft knees, loading the hamstrings." },
+    { "name": "Leg Press", "equipment": "machine", "description": "Machine press through the legs with the low back supported." },
+    { "name": "Bulgarian Split Squat", "equipment": "dumbbells", "description": "Rear-foot-elevated single-leg squat." },
+    { "name": "Front Squat", "equipment": "barbell", "description": "Squat with the bar on the front rack, keeping the torso upright." },
+    { "name": "Goblet Squat", "equipment": "dumbbells", "description": "Squat holding a single weight at the chest, which self-corrects your depth." },
+    { "name": "Hip Thrust", "equipment": "barbell", "description": "Drive the hips up with the shoulders on a bench and the ribs down." },
+    { "name": "Leg Extension", "equipment": "machine", "description": "Straighten the knees against a pad to isolate the quads." },
+    { "name": "Lying Leg Curl", "equipment": "machine", "description": "Curl the heels toward the glutes without letting the hips lift." },
+    { "name": "Step-Up", "equipment": "dumbbells", "description": "Drive up onto a box through the working leg and lower under control." },
+    { "name": "Walking Lunge", "equipment": "dumbbells", "description": "Lunge forward continuously, alternating legs each step." },
+    { "name": "Seated Calf Raise", "equipment": "machine", "description": "Calf raise with the knees bent, biasing the soleus." }
+  ],
+  "core": [
+    { "name": "Planks", "equipment": "none", "description": "Hold a straight line on the forearms with the ribs down." },
+    { "name": "Russian Twists", "equipment": "none", "description": "Seated rotation from side to side with the feet off the floor." },
+    { "name": "Leg Raises", "equipment": "none", "description": "Lift straight legs from the floor without arching the back." },
+    { "name": "Bicycle Crunches", "equipment": "none", "description": "Alternating elbow-to-knee crunch with a slow tempo." },
+    { "name": "Dead Bug", "equipment": "none", "description": "Extend the opposite arm and leg while keeping the back flat." },
+    { "name": "Side Plank", "equipment": "none", "description": "Hold a straight line on one forearm with the hips stacked." },
+    { "name": "Hanging Knee Raise", "equipment": "pull-up bar", "description": "Hang and lift the knees to the chest without swinging." },
+    { "name": "Cable Crunch", "equipment": "cable", "description": "Kneel and crunch the ribs toward the pelvis against a cable." },
+    { "name": "Ab Wheel Rollout", "equipment": "ab wheel", "description": "Roll out as far as you can hold the ribs down, then pull back." },
+    { "name": "Pallof Press", "equipment": "cable", "description": "Press a cable straight out while refusing to let it rotate you." },
+    { "name": "Hollow Body Hold", "equipment": "none", "description": "Hold the arms and legs off the floor with the low back pressed down." },
+    { "name": "Bird Dog", "equipment": "none", "description": "Extend the opposite arm and leg from all fours without tipping the hips." },
+    { "name": "Mountain Climbers", "equipment": "none", "description": "Drive the knees to the chest from a plank, keeping the hips level." },
+    { "name": "V-Up", "equipment": "none", "description": "Fold the arms and legs together into a V, then lower under control." },
+    { "name": "Suitcase Carry", "equipment": "dumbbells", "description": "Walk with a weight in one hand, staying square and upright." }
+  ],
+  "arms": [
+    { "name": "Bicep Curls", "equipment": "dumbbells", "description": "Curl the weight with the elbows pinned at the sides." },
+    { "name": "Tricep Dips", "equipment": "none", "description": "Lower and press back up with the elbows tracking back." },
+    { "name": "Hammer Curls", "equipment": "dumbbells", "description": "Curl with a neutral grip to bias the brachialis and forearm." },
+    { "name": "Skull Crushers", "equipment": "barbell", "description": "Lying triceps extension to the forehead." },
+    { "name": "Tricep Pushdown", "equipment": "cable", "description": "Extend the elbows against a cable with the upper arms still." },
+    { "name": "Preacher Curl", "equipment": "dumbbells", "description": "Supported curl that removes the swing." },
+    { "name": "Close-Grip Bench Press", "equipment": "barbell", "description": "Bench press with the hands shoulder width, letting the triceps lead." },
+    { "name": "Overhead Tricep Extension", "equipment": "dumbbells", "description": "Extend a weight from behind the head, stretching the long head." },
+    { "name": "Rope Tricep Extension", "equipment": "cable", "description": "Pushdown with a rope, spreading the ends apart at lockout." },
+    { "name": "Bench Dip", "equipment": "none", "description": "Dip with the hands behind you on a bench and the feet out front." },
+    { "name": "Concentration Curl", "equipment": "dumbbells", "description": "Seated single-arm curl with the elbow braced on the inner thigh." },
+    { "name": "Incline Dumbbell Curl", "equipment": "dumbbells", "description": "Curl lying back on an incline, which stretches the biceps at the bottom." },
+    { "name": "Cable Curl", "equipment": "cable", "description": "Curl against a low cable so tension never drops off at the top." },
+    { "name": "Reverse Curl", "equipment": "barbell", "description": "Overhand curl that loads the forearms and brachialis." },
+    { "name": "Zottman Curl", "equipment": "dumbbells", "description": "Curl up with palms up, rotate at the top, and lower with palms down." }
+  ]
 }

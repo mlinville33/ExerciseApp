@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@capacitor-community/sqlite": "^8.1.1",
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
@@ -13,10 +17,22 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "library": "node scripts/sync-library.mjs",
+    "prestart": "npm run library",
+    "prebuild": "npm run library",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "assets:render": "node scripts/render-assets.mjs",
+    "assets": "npm run assets:render && cap assets generate --android --ios",
+    "sync": "npm run build && cap sync",
+    "android": "npm run sync && cap open android",
+    "ios": "npm run sync && cap open ios",
+    "apk": "npm run sync && node scripts/apk.mjs",
+    "deployAndroid": "npm run apk && adb install -r android/app/build/outputs/apk/debug/app-debug.apk",
+    "inspect": "node scripts/inspect.mjs",
+    "apk:release": "npm run sync && node scripts/apk.mjs release"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +51,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jeep-sqlite": "^2.8.0",
+    "sql.js": "1.11.0",
+    "typescript": "~5.6.0"
   }
 }

@@ -1,0 +1,6 @@
+{
+  // VS Code otherwise auto-forwards any dev-server port it notices and binds
+  // 127.0.0.1 for it, which shadows the dev server on localhost. Turning this
+  // off for this workspace keeps the port the app actually starts on.
+  "remote.autoForwardPorts": false
+}
